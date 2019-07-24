@@ -1,0 +1,12 @@
+package hammy;
+
+public class Wguy extends Dude{
+	public Wguy() {
+		ammy = new Tammy();
+		immy = new Timmy();
+	}
+	public void shout() {
+		System.out.println("I'm a real Tmachine!");
+	}
+
+}
