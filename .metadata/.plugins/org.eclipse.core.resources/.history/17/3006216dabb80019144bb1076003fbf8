@@ -1,0 +1,32 @@
+package quest3;
+
+public class manKitBuilder extends promoKitBuilder{
+
+	promoKit manKit;
+	
+	public video buildVideoPart() {
+		video vid = new video();
+		vid.genre="Action";
+		return vid;
+		
+	}
+	public garment buildGarmentPart() {
+		garment gar = new garment();
+		gar.type="Sombrero";
+		return gar;
+		
+	}
+	public book buildBookPart() {
+		book boo = new book();
+		boo.title="Man for Men";
+		return boo;
+	}
+	public promoKit getPromoKit() {
+		video vid = buildVideoPart();
+		garment gar = buildGarmentPart();
+		book boo = buildBookPart();
+		manKit= new promoKit("man's kit", vid, gar, boo);
+		return manKit;
+	}
+	
+}

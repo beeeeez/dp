@@ -1,0 +1,11 @@
+package quest3;
+
+public abstract class promoKitBuilder {
+	promoKit promo;
+	
+	public void buildVideoPart() {}
+	public void buildGarmentPart() {}
+	public void buildBookPart() {}
+	public promoKit getPromoKit() {return promo;}
+	
+}

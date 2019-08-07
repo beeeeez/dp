@@ -1,0 +1,26 @@
+/**
+ * 
+ */
+package carThing;
+
+/**
+ * @author 001400553
+ *
+ */
+public class director {
+	
+	car dragon = buildCar(new stationWagonBuilder());
+	System.out.println(dragon.getName());
+	
+	
+	
+}
+
+public static car buildCar(carBuilder carBuild) {
+	carBuild.buildCar();
+	carBuild.setName();
+	carBuild.buildDoors();
+	carBuild.buildWheels();
+	return carBuild.getCar();
+	
+}

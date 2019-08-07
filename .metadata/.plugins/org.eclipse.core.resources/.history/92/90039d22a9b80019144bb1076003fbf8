@@ -1,0 +1,11 @@
+package quest3;
+
+public abstract class womanKitBuilder {
+
+	
+	public void buildVideoPart() {}
+	public void buildGarmentPart() {}
+	public void buildBookPart() {}
+	public void getPromoKit() {}
+	
+}

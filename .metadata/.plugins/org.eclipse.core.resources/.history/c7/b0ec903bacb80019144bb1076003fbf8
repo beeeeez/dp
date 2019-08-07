@@ -1,0 +1,17 @@
+package quest3;
+
+public class promoKitDriver {
+
+	public static void main(String[] args) {
+		
+		promoKit manKit = createPromoKit(new manKitBuilder());
+		promoKit womanKit = createPromoKit(new womanKitBuilder());
+		
+	}
+	public static promoKit createPromoKit(promoKitBuilder buildy) {
+		return buildy.getPromoKit();		
+	}
+	
+}
+
+

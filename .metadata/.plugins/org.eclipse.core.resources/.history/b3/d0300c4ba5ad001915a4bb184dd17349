@@ -1,7 +1,0 @@
-package hammy;
-
-public class Bammy implements Immy {
-	public void hoohah() {
-		System.out.println("Bimmy!");
-	}
-}

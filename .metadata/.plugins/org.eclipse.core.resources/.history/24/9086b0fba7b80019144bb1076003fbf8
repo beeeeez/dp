@@ -1,0 +1,7 @@
+package quest3;
+
+public class promoKit {
+
+	String id;
+	
+}

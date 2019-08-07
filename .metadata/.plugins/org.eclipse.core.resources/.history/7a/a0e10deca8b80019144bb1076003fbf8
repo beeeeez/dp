@@ -1,0 +1,40 @@
+package quest3;
+
+public class promoKit {
+
+	String id;
+	video vid;
+	garment gar;
+	book boo;
+	promoKit(String Id, video Vid, garment Gar, book Boo){
+		id=Id;
+		vid=Vid;
+		gar=Gar;
+		boo=Boo;
+	}
+	public String getId() {
+		return id;
+	}
+	public void setId(String id) {
+		this.id = id;
+	}
+	public video getVid() {
+		return vid;
+	}
+	public void setVid(video vid) {
+		this.vid = vid;
+	}
+	public garment getGar() {
+		return gar;
+	}
+	public void setGar(garment cloth) {
+		this.gar = cloth;
+	}
+	public book getBoo() {
+		return boo;
+	}
+	public void setBoo(book words) {
+		this.boo = boo;
+	}
+	
+}

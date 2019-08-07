@@ -1,0 +1,9 @@
+package chocoBoil;
+
+public class driver {
+
+	chocoBoiler cb = chocoBoiler.getBoiler();
+	
+	cb.fill();
+	cb.drop();
+}
