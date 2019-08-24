@@ -1,9 +1,0 @@
-package carThing;
-
-public class part {
-	String partID;
-	
-	public string getPart() {
-		return partID;
-	}
-}
