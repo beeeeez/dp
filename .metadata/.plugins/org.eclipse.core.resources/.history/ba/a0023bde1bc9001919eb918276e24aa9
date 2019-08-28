@@ -1,0 +1,12 @@
+package ex7_1;
+
+public class Decaf extends Beverage{
+	
+	public Decaf() {
+		desc="Dark Roast Coffee";
+	}
+	public double cost() {
+		return .99;
+	}
+
+}

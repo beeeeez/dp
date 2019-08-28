@@ -1,0 +1,18 @@
+package ex7_1;
+
+public class Soy extends CondDec {
+	
+	Beverage bev;
+	public Soy(Beverage bev) {
+		this.bev=bev;
+	}
+	
+	public String getDesc() {
+		return bev.getDesc() + ", Mocha"; 
+	}
+
+	public double cost() {
+		return .20+bev.cost();
+	}
+	
+}

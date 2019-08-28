@@ -1,0 +1,21 @@
+package ex7_1;
+
+public abstract class Beverage {
+	String desc = "Unknown Beverage";
+	String size;
+	
+	public Beverage() {
+	}
+
+	public String getDesc() {
+		return desc;
+	}
+	private void setSize(String size) {
+		this.size=size;
+	}
+	public String getSize() {
+		return size;
+	}
+	public abstract double cost();
+	
+}

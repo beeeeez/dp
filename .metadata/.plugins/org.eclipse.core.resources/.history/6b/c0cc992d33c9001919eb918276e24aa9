@@ -1,0 +1,21 @@
+package ex7_1;
+
+public class Large extends SizeDec{
+	public Beverage bev;
+	public Large(Beverage bev) {
+		this.bev=bev;
+		bev.setSize("Lg");
+	}
+	public String getSize(){
+		return bev.getSize();
+	}
+	public double cost() {
+		bev.setSize("Lg");
+		return bev.cost();
+	}
+	public String getDesc() {
+		return bev.getDesc() + ", Large";
+	}
+
+
+}

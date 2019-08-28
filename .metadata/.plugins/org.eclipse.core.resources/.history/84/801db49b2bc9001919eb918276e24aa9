@@ -1,0 +1,32 @@
+package ex7_1;
+
+public class Mocha extends SizeDec {
+
+	Beverage bev;
+	String size;
+
+	public Mocha(Beverage bev) {
+		this.bev = bev;
+	}
+
+	public String getDesc() {
+		return bev.getDesc() + ", Mocha";
+	}
+
+	public double cost() {
+		switch (bev.getSize()) {
+		case "Sm":
+			return .15 + bev.cost();
+		case "Md":
+			return .20 + bev.cost();
+		case "Lg":
+			return .25 + bev.cost();
+		default:
+			bev.
+			return bev.cost();
+		}
+
+	}
+
+
+}

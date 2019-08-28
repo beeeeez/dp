@@ -1,0 +1,16 @@
+package ex7_1;
+
+public class Medium extends SizeDec{
+	private Beverage bev;
+	public Medium(Beverage bev) {
+		this.bev=bev;
+		bev.setSize("Md");
+	}
+	public String getSize(){
+		return bev.getSize();
+	}
+
+	public double cost() {
+		return bev.cost();
+	}
+}

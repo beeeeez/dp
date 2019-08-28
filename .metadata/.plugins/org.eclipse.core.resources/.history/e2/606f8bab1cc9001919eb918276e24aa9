@@ -1,0 +1,12 @@
+package ex7_1;
+
+public class StarbuttCoffee {
+
+	public static void main(String[] args) {
+		Beverage bev = new Espresso();
+		System.out.println(bev.getDesc() + "$" +bev.cost());
+		System.out.println();
+		
+		
+	}
+}

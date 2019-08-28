@@ -1,0 +1,11 @@
+package ex7_1;
+
+public abstract class Beverage {
+	String desc = "Unknown Beverage";
+
+	public String getDes() {
+		return desc;
+	}
+	
+	public abstract double cost();
+}

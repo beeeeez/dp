@@ -1,0 +1,6 @@
+package ex7_1;
+
+public abstract class SizeDec extends Beverage{
+	public String size;
+	public abstract String getSize();
+}

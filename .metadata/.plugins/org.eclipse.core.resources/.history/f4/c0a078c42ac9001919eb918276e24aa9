@@ -1,0 +1,11 @@
+package ex7_1;
+
+public class Large extends SizeDec{
+	private String size;
+	public Large() {
+		size="Lg";
+	}
+	public String getSize(){
+		return size;
+	}
+}
