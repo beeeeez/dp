@@ -1,13 +1,12 @@
 package quest7;
 
-public class SMSSubscriber implements Subscriber {
+public class EmailSubscriber implements Subscriber {
 	private String news;
 	private static boolean update;
 	BusinessNewsPublisher publish;
-	public SMSSubscriber(BusinessNewsPublisher x) {
+	public EmailSubscriber(BusinessNewsPublisher x) {
+		publish = x;
 		update=false;
-		publish=x;
-		news=x.getNews();
 	}
 	public void change() {
 		news=publish.getNews();
@@ -19,11 +18,5 @@ public class SMSSubscriber implements Subscriber {
 	}
 	public void sayNews() {
 		System.out.println(news);
-	}
-	public void checkforUpdate() {
-		if (update==true){
-			change();
-			sayNews();
-		}
 	}
 }

@@ -1,0 +1,10 @@
+package quest7;
+
+public class driver {
+
+	public static void main(String[] args) {
+		BusinessNewsPublisher bn = new BusinessNewsPublisher();
+		SMSSubscriber sms = new SMSSubscriber(bn);
+		EmailSubscriber email = new EmailSubscriber(bn);
+	}
+}

@@ -7,7 +7,6 @@ public class SMSSubscriber implements Subscriber {
 	public SMSSubscriber(BusinessNewsPublisher x) {
 		update=false;
 		publish=x;
-		news=x.getNews();
 	}
 	public void change() {
 		news=publish.getNews();
@@ -19,11 +18,5 @@ public class SMSSubscriber implements Subscriber {
 	}
 	public void sayNews() {
 		System.out.println(news);
-	}
-	public void checkforUpdate() {
-		if (update==true){
-			change();
-			sayNews();
-		}
 	}
 }

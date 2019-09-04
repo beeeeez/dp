@@ -7,7 +7,6 @@ public class SMSSubscriber implements Subscriber {
 	public SMSSubscriber(BusinessNewsPublisher x) {
 		update=false;
 		publish=x;
-		news=x.getNews();
 	}
 	public void change() {
 		news=publish.getNews();
