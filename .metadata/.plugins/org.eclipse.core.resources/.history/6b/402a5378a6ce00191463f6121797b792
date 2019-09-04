@@ -1,0 +1,12 @@
+package quest7;
+
+public class SMSSubscriber implements Subscriber {
+	private String news;
+	public void change(String news) {
+		
+	}
+	public void notifySub(NewsPublisher sub) {
+		String temp = (BusinessNewsPublisher)sub.getNews();
+		change();
+	}
+}

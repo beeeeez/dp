@@ -1,0 +1,7 @@
+package quest7;
+
+public interface Subscriber {
+	
+	public void addListener(Subscriber x);
+	public void deleteListener(Subscriber x);
+}

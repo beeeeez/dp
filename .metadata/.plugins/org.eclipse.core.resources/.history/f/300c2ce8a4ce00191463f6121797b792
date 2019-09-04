@@ -1,0 +1,22 @@
+package quest7;
+
+import java.util.ArrayList;
+
+public class BusinessNewsPublisher implements NewsPublisher {
+	private ArrayList Subscribers;
+	
+	public BusinessNewsPublisher() {
+		Subscribers=new ArrayList();
+	}
+	public void addListener(Subscriber x) {
+		Subscribers.add(x);
+	}
+	public void deleteListener(Subscriber x) {
+		int i = Subscribers.indexOf(x);
+		if(i>=0) {
+			Subscribers.remove(i);
+		}		
+	}
+	
+	
+}

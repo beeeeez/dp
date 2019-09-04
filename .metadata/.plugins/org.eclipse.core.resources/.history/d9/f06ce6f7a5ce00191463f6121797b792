@@ -1,0 +1,8 @@
+package quest7;
+
+public interface Subscriber {
+	
+	public void change(String news);
+	public void notifySub(NewsPublisher sub);	
+	
+}

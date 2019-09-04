@@ -1,0 +1,9 @@
+package quest7;
+
+public class BusinessNewsPublisher implements NewsPublisher {
+	String news;
+	
+	public void change(String news) {
+		this.news=news;
+	}
+}
