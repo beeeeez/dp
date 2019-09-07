@@ -1,0 +1,6 @@
+package quest8;
+
+public interface Window {
+ public void draw();
+ public String getDesc();
+}

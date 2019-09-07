@@ -1,6 +1,0 @@
-package ex7_1;
-
-public abstract class SizeDec extends CondDec{
-	public abstract void setSize();
-	public abstract String getSize();
-}

@@ -1,0 +1,14 @@
+package quest8;
+
+public class SimpleWindow extends Window {
+
+	public void draw() {
+		
+	}
+	
+	public SimpleWindow() {
+		desc="Simple Window - ";
+	}
+	
+	
+}

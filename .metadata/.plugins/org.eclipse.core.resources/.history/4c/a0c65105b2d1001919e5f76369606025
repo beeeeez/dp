@@ -1,0 +1,31 @@
+package ex8_2;
+
+public class Stereo {
+
+	int volume;
+	String room;
+	public Stereo(String room) {
+		this.room = room;
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+	public void off() {
+		System.out.println(room + " stereo is off");
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+	public void on() {
+		System.out.println(room + " stereo is on");
+	}
+}
