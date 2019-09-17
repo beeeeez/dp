@@ -1,6 +1,6 @@
 package ex8_2;
 
-public class StereoOnWithCDCommand {
+public class StereoOnWithCDCommand implements Command{
 	Stereo stereo;
 	public StereoOnWithCDCommand(Stereo stereo) {
 		this.stereo=stereo;

@@ -1,0 +1,20 @@
+package ex8_2;
+
+import java.util.ArrayList;
+
+public class MacroCommand implements Command {
+	
+	ArrayList<Command> macroCommands;
+	
+	public void MacroCommand(ArrayList<Command> jimbo) {
+		macroCommands=jimbo;
+	}
+		
+	public void execute() {
+		macroCommands.forEach((n) -> n.execute());
+		
+	}
+	public void undo() {
+	macroCommands.forEach((n) -> n.undo());
+	}
+}

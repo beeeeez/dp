@@ -1,0 +1,12 @@
+package finalDec;
+
+public class Monitor extends ComponentDec{
+	Robot rob;
+	
+	public Monitor(Robot rob) {
+		this.rob=rob;
+	}
+	public String getDesc() {
+		return rob.getDesc()+"\n With Wheel";
+	}
+}

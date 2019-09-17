@@ -1,0 +1,14 @@
+package finalDec;
+
+public class driver {
+
+	public static void main(String[] args) {
+		Robot robo = new HumanoidRobot();
+		robo = new RobotController(robo);		
+		robo = new RobotMonitor(robo);
+		robo = new RobotKeyboard(robo);
+
+	}
+	
+	
+}

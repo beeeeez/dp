@@ -1,0 +1,12 @@
+package adapterExercise;
+
+public class TurkeyAdapter implements Duck{
+	Turkey turkey;
+	
+	public TurkeyAdpater(Turkey turkey) {
+		this.turkey=turkey;
+	}
+	
+	
+	
+}

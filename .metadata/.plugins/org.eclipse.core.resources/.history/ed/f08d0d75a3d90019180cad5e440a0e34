@@ -1,0 +1,6 @@
+package adapterExercise;
+
+public interface Turkey {
+	public void gobble();
+	
+}

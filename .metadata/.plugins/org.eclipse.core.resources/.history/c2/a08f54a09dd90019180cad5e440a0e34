@@ -1,0 +1,21 @@
+package finalDec;
+
+public class RobotWheel extends ComponentDec{
+	Robot rob;
+	
+	public RobotWheel(Robot rob) {
+		this.rob=rob;
+	}
+	public String getDesc() {
+		return rob.getDesc()+"\n With Wheel"
+	}
+	
+Window win;
+	
+	public BeveledBorderedWindow(Window win) {
+		this.win=win;
+	}
+	public String getDesc() {
+		return win.getDesc() + " - Beveled Bordered";
+	}
+}

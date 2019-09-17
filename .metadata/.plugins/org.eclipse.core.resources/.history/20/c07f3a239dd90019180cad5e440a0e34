@@ -1,0 +1,9 @@
+package finalDec;
+
+public class HumanoidRobot extends Robot{
+String desc;
+	
+	public String getDesc() {
+		return desc;
+	}
+}

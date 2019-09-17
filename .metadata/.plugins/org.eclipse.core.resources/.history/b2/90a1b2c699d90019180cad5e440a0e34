@@ -1,0 +1,6 @@
+package ex8_2;
+
+public class MacroCommand implements Command {
+	
+
+}

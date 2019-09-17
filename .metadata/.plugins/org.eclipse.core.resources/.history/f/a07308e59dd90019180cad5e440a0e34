@@ -1,0 +1,12 @@
+package finalDec;
+
+public class RobotController extends ComponentDec{
+	Robot rob;
+	
+	public RobotController(Robot rob) {
+		this.rob=rob;
+	}
+	public String getDesc() {
+		return rob.getDesc()+"\n With Wheel";
+	}
+}

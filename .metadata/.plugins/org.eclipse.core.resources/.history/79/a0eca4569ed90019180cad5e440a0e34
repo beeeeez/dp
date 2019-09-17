@@ -1,0 +1,21 @@
+package finalDec;
+
+public class driver {
+
+	public static void main(String[] args) {
+		Robot robo = new HumanoidRobot();
+		robo = new RobotController(robo);		
+		robo = new RobotMonitor(robo);
+		robo = new RobotKeyboard(robo);		
+		System.out.println(robo.getDesc());
+		
+		Robot robo2 = new HumanoidRobot();
+		robo2 = new RobotWheel(robo2);		
+		robo2 = new RobotDiskDrive(robo2);
+		System.out.println(robo2.getDesc());
+
+
+	}
+	
+	
+}

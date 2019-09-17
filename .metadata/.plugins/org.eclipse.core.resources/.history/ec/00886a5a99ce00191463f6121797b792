@@ -1,6 +1,0 @@
-package quest7;
-
-public interface listener {
-	
-	public void newNews(String news, String type);
-}
